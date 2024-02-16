@@ -1,0 +1,2 @@
+ --principal-typo: "Manrope", sans-serif;
+    --secondary-typo: 'Fraunces 144pt';

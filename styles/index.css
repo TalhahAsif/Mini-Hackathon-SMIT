@@ -1,0 +1,68 @@
+:root {
+  --negro: #393939;
+  --dark-purple: #24053e;
+  --eucalyptus: #44ffa1;
+  --davys-grey: #584d62;
+  --white: #ffffff;
+  --ghost-white: #fcf8ff;
+}
+/* *{
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+} */
+
+.bg-blue {
+  background-image: url("../assets/images/background-hero.svg");
+  width: 100%;
+  height: 100dvh;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+}
+.border {
+  border: 1px solid;
+}
+.apply-text {
+  /* font-family: Fraunces; */
+  margin: 0;
+}
+.spring1 {
+  width: 20%;
+}
+.spring2 {
+  width: 10%;
+}
+.boxnumber {
+  border: 1px solid black !important;
+  width: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+main {
+  margin: 200px 0px 100px 0;
+}
+.founder-card {
+  background-color: #24053e;
+  color: white;
+  padding: 40px;
+  width: 50dvw;
+}
+.founder-img {
+  left: 60px;
+  /* max */
+}
+
+@media only screen and (max-width: 950px) {
+  .founder-card-container {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .founder-card {
+    width: 100dvw important;
+  }
+}
